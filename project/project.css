@@ -1,0 +1,97 @@
+
+
+@font-face {
+    font-family: 'MyFont';
+    src: url('fonts/Lora-VariableFont_wght.ttf') format('truetype');
+    font-weight:600;
+    font-style: normal;
+}
+
+h1 {
+    padding-left:120px;
+
+}
+
+.header{
+    display:flex;
+    justify-content: space-between; 
+    background-image: url(The\ Bistro\ Cafe\ \(1\).png);
+    background-size: 10%;
+    padding: 15px;
+    background-repeat: no-repeat;
+}
+.border{
+    border:10px solid #4B3D3A;
+    border-radius: 50px;
+    margin-left:10px;
+    margin:40px;
+    padding-bottom:400px;
+    background-image: url(pexels-enginakyurt-2299028.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.nav {
+    text-align: right;
+    display: block;
+    list-style-type: none;
+    text-decoration: none;
+    padding-top:20px;
+}
+.nav li{
+    display:inline-block;
+    padding-right:20px;
+    text-decoration: none;
+}
+.main{
+
+    justify-content: center;
+}
+body {
+   margin: 0;
+   font-family: 'MyFont', sans-serif;
+    color: black;
+    height: 100%;
+    background-color: #e2dac7;
+}
+
+
+nav :link{
+    color: rgb(185, 55, 55);
+}
+nav :visited{
+    color: rgb(48, 119, 173);
+}
+nav :hover{
+    color:blue
+}
+
+
+#wrapper{
+   
+   width: 100%;
+   margin: 0;
+}
+@media (min-width: 800px) {
+    nav li{display: inline;}
+    nav{
+        padding: 2px;
+        display: block;}
+    body{font-weight: 400;}
+}
+
+
+legend {font-weight: bold;}
+
+fieldset {
+    border: 3px ridge rgb(100, 97, 116) ;
+    line-height: 30px;
+}
+
+footer {
+    text-align: center;
+    font-style:italic;
+     font-size: .8em;
+     line-height: 4px;
+     padding-bottom:19px;
+}
