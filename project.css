@@ -16,7 +16,7 @@ h1 {
     display:flex;
     justify-content: space-between; 
     background-image: url(The\ Bistro\ Cafe\ \(1\).png);
-    background-size: 10%;
+    background-size: 8%;
     padding: 15px;
     background-repeat: no-repeat;
 }
@@ -95,4 +95,5 @@ footer {
      line-height: 4px;
      padding-bottom:19px;
 }
+
 
